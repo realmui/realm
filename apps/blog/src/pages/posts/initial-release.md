@@ -27,7 +27,7 @@ There are several features that Realm offers:
 - **Reactivity without JavaScript**. Realm is using HTML as its main language, so you can use HTML to define your custom element's state. We also offers a global state by default.
 - **Reusability accross the web**. Realm is designed to be used accross the web, so you can use any pre-defined or existing custom element from any website (by enabling CORS).
 
-There's more features that Realm offers, please check our <anchor-link href="https://realm.codes/docs">Documentations</anchor-link> to learn more.
+There's more features that Realm offers, please check our <anchor-link href="https://realmui.github.io/docs">Documentations</anchor-link> to learn more.
 
 ## Examples
 

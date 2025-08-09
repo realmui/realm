@@ -13,17 +13,18 @@ You've already acquired the fundamental knowledge of Realm. In our previous tuto
 Picture this scenario: you have numerous pages where you need to define the same custom element repeatedly. It's not the most efficient process, right? Thankfully, Realm offers a solution. We can define the custom element once and then seamlessly reuse it across all our pages, saving us precious time and effort. This approach streamlines code management, greatly enhancing productivity, especially when dealing with multiple pages.
 
 In the following example, we'll demonstrate how to import a `basic-counter` element directly from Realm's domain:  
-<anchor-link href="https://realm.codes/elements/basic-counter.html">https://realm.codes/elements/basic-counter.html</anchor-link>
+<anchor-link href="https://realmui.github.io/elements/basic-counter.html">https://realmui.github.io/elements/basic-counter.html</anchor-link>
 
 ```html
-<import-element from="https://realm.codes/elements/basic-counter.html"></import-element>
+<import-element
+  from="https://realmui.github.io/elements/basic-counter.html"></import-element>
 
 <basic-counter></basic-counter>
 <basic-counter></basic-counter>
 <basic-counter></basic-counter>
 ```
 
-<import-element from="https://realm.codes/elements/basic-counter.html"></import-element>
+<import-element from="https://realmui.github.io/elements/basic-counter.html"></import-element>
 <realm-demo>
 <basic-counter></basic-counter>
 <basic-counter></basic-counter>
@@ -63,7 +64,8 @@ Take a look at the following example:
 </custom-element>
 
 <!-- https://domain-xyz.tld -->
-<import-element from="https://domain-xyz.abc/elements/custom-dialog.html"></import-element>
+<import-element
+  from="https://domain-xyz.abc/elements/custom-dialog.html"></import-element>
 
 <custom-element name="show-alert">
   <element-state name="is-open" type="boolean">false</element-state>
@@ -94,14 +96,16 @@ In some cases, developers may choose less-than-desirable names for their custom 
 By leveraging the `as` attribute, you can easily provide an element with a new, more fitting name that aligns with your project's naming conventions or specific requirements. This feature promotes better organization, readability, and maintainability of your code, simplifying the process of working with custom elements in Realm.
 
 ```html
-<import-element from="https://realm.codes/elements/basic-counter.html" as="good-counter"></import-element>
+<import-element
+  from="https://realmui.github.io/elements/basic-counter.html"
+  as="good-counter"></import-element>
 
 <good-counter></good-counter>
 <good-counter></good-counter>
 <good-counter></good-counter>
 ```
 
-<import-element from="https://realm.codes/elements/basic-counter.html" as="good-counter"></import-element>
+<import-element from="https://realmui.github.io/elements/basic-counter.html" as="good-counter"></import-element>
 
 <realm-demo>
   <good-counter></good-counter>

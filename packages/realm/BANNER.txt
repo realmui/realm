@@ -1,6 +1,6 @@
 /**
  * @license Realm
- * @link https://realm.codes
+ * @link https://realmui.github.io
  * @link https://github.com/realmorg
  * @copyright Copyright (c) Realmorg
  *

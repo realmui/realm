@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://realm.codes" target="_blank">
+  <a href="https://realmui.github.io" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/realmorg/realm/HEAD/.github/dark-logo.png">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/realmorg/realm/HEAD/.github/light-logo.png">
@@ -22,6 +22,7 @@
 </p>
 
 > [!WARNING]
+>
 > ## Realm Framework Status: Maintenance Mode
 
 Realm Framework is now in **maintenance mode**. This decision has been made due to instability in the Shadow DOM and Web Component API, as well as shifts in the web development ecosystem. While the framework will remain available with occasional bug fixes, we recommend exploring alternatives like [Shoelace](https://github.com/shoelace-style/shoelace) for new projects.
@@ -32,13 +33,17 @@ Thank you for your support,
 **The Realm Framework Team**
 
 ## Documentation
-Visit https://realm.codes to view the full documentation.
+
+Visit https://realmui.github.io to view the full documentation.
 
 ## What is Realm?
+
 Realm is an HTML framework for building MVP. It is designed to be simple, lightweight, and easy to use. Realm is built on top of Native web components. No-tooling, No-bundler, less javascript. Just take care of your product and ship it fast.
 
 ## Contributing
+
 Please see [CONTRIBUTING.md](https://github.com/realmorg/realm/blob/main/.github/CONTRIBUTING.md).
 
 ### LICENSE
+
 Copyright 2023 - [MIT License](https://github.com/realmorg/realm/blob/main/LICENSE).

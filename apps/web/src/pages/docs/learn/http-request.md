@@ -24,7 +24,7 @@ Here is an example of using the HTTP request tag in Realm:
     <trigger-event click="FetchButton">
       <set-state name="is-fetching" value="true"></set-state>
       <http-request
-        url="https://realm.codes/api-examples/api.html"
+        url="https://realmui.github.io/api-examples/api.html"
         method="GET">
         <response-ok>
           <set-state name="content" from="event"></set-state>
@@ -57,7 +57,7 @@ Here is an example of using the HTTP request tag in Realm:
 <http-req-example></http-req-example>
 ```
 
-<import-element from="https://realm.codes/elements/basic-counter.html"></import-element>
+<import-element from="https://realmui.github.io/elements/basic-counter.html"></import-element>
 
 <custom-element name="http-req-example">
   <element-state name="content" type="html"></element-state>
@@ -67,7 +67,7 @@ Here is an example of using the HTTP request tag in Realm:
   <element-flow>
     <trigger-event click="FetchButton">
       <set-state name="is-fetching" value="true"></set-state>
-      <http-request url="https://realm.codes/api-examples/api.html" method="GET">
+      <http-request url="https://realmui.github.io/api-examples/api.html" method="GET">
         <response-ok>
           <set-state name="content" from="event"></set-state>
           <set-state name="is-fetching" value="false"></set-state>
