@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.realm.codes/sitemap-index.xml
+Sitemap: https://realmui.github.io/blog/sitemap-index.xml

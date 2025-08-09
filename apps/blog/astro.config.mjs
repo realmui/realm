@@ -1,13 +1,13 @@
-import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import partytown from "@astrojs/partytown";
 import prefetch from "@astrojs/prefetch";
 import sitemap from "@astrojs/sitemap";
 import critters from "astro-critters";
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://blog.realm.codes",
+  site: "https://realmui.github.io/blog",
   markdown: {
     shikiConfig: {
       theme: "monokai",
